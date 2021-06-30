@@ -1,0 +1,102 @@
+body {
+  overflow: hidden;
+  font-family: 'Pacifico', cursive;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  padding: 5px;
+  transition: 0.3s;
+  min-width: 25vw;
+  justify-content: space-around;
+  border: 1px solid;
+  margin: 0 0px;
+  background-color:rgb(133,198,204);
+  text-align: center;
+  margin: 20px;
+}
+
+.card2 {
+  box-shadow: 4px 4px 4px 0 rgb(183, 126, 189);
+  transition: 0.3s;
+  min-width: 25vw;
+  justify-content: space-around;
+  border: 1px solid;
+  border-color:rgb(183, 126, 189);
+  background-color:rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.c2 {
+  display: 100%
+}
+
+header {
+ display: flex;
+ background-color: rgb(213,220,104);
+ min-height: 15vw;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ font-size: 36pt;
+}
+
+footer {
+  font-size: 24pt;
+  position: fixed, bottom;
+  display: block;
+  display:flex;
+  background-color: rgb(245,170,189);
+  height: 15vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color:rgb(0, 0, 0);
+  text-shadow: 1px 1px rgb(255, 255, 255);
+}
+
+.window {
+  display: flex;
+  min-height: 20vw;
+}
+
+button {
+  padding: 5px;
+  color:rgb(0, 0, 0);
+  text-shadow: 1px 1px rgb(255, 255, 255);
+}
+
+.btn1{
+background-color: rgb(245,170,189);
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.btn2{
+background-color: rgb(213,220,104);
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.btn3 {
+background-color: rgb(183, 126, 189);
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.btn4 {
+    background-color: rgb(245,170,189);
+    font-size: 56pt;
+    height: 100%;
+    width: 100%;
+    z-index:100;
+    position: absolute;
+}
+
+.hidden{
+  display: none !important;
+}
