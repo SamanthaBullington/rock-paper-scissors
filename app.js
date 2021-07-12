@@ -27,11 +27,21 @@ function playerChoice(playerInput) {
   let compChoice = opChoice()
   if (playerInput == 'scissors' && compChoice == 'paper' || playerInput == 'paper' && compChoice == 'rock' || playerInput == 'rock' && compChoice == 'scissors') {
     playerWins++
-    console.log(playerWins)
+    console.log('Player Wins')
+  }
+  else if (playerInput == 'scissors' && compChoice == 'rock' || playerInput == 'paper' && compChoice == 'scissors' || playerInput == 'rock' && compChoice == 'paper') {
+    compWins++
+    console.log('Opponent wins')
   }
 
-
 }
+
+// function rendImage() {
+//   if (playerInput == 'scissors') {
+
+//   }
+
+// }
 
 function opChoice() {
   let randIndex = Math.floor(Math.random() * (opponentChoice.length))
@@ -45,11 +55,6 @@ function playGame() {
 }
 
 opChoice()
-
-
-// function rendImage() {
-
-// }
 
 
 // function drawButton() {
